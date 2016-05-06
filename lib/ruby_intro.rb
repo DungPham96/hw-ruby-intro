@@ -1,5 +1,3 @@
-# When done, submit this entire file to the autograder.
-
 # Part 1
 
 # Define a method sum(array) that takes an array of integers as an argument and returns the sum of its elements.
@@ -82,7 +80,6 @@ end
 # Define a class BookInStock which represents a book with an ISBN number, isbn, and price of the book as a floating-point number, price, as attributes.
 class BookInStock
     
-    # The constructor should accept the ISBN number (a string, since in real life ISBN numbers can begin with zero and can include hyphens)
     # as the first argument and price as second argument, and should raise ArgumentError (one of Ruby's built-in exception types)
     # if the ISBN number is the empty string or if the price is less than or equal to zero. Include the proper getters and setters for these attributes.
     def initialize (isbn, price)
